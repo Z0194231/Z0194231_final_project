@@ -8,7 +8,6 @@ from sklearn.metrics import confusion_matrix, classification_report
 import pickle
 import matplotlib.pyplot as plt
 import os
-import pickle
 os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
 # Import random and ensure that experiment is repeatable 

@@ -44,8 +44,8 @@ print('VALUE COUNTS:\n' + str(final_counts))
 print('VALUES SHAPE:\n', np.unique(status_test))
 
 # Load saved models, first with max accuracy and second with max recall 
-cnn_model = load_model('filtered_cnn_model.h5', custom_objects={'focal_loss_fixed': focal_loss})
-cnn_model_best = load_model('filtered_cnn_model_best.h5', custom_objects={'focal_loss_fixed': focal_loss})
+cnn_model = load_model('mtb_cnn_model.h5', custom_objects={'focal_loss_fixed': focal_loss})
+cnn_model_best = load_model('mtb_cnn_model_best.h5', custom_objects={'focal_loss_fixed': focal_loss})
 
 # Predict on first model 
 cnn_pred = cnn_model.predict(sequence_test)

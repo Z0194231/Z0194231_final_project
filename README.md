@@ -7,7 +7,7 @@ Files too big for GitHub storage were instead stored in the student's Durham Uni
 - **PROJECT DATASETS:** Both built datasets for model training and testing, saved as CSV files.
 - **TEST DATA:** Test data split from original dataset, used in model prediction.
 - **PREDICTION DATA:** A folder containing predicted categories VS true categories, for graph generation and model performance evaluation. 
-- **TLT-19 PRE-PROCESSING DATA:** A folder containing all files generated as part of data pre-processing and TLT-19 *de novo* assembly. Most files are in SAM or BAM format, with generated files via DeDup nested in an additional folder.  
+- **TLT-19 PRE-PROCESSING DATA:** A folder containing all files generated as part of data pre-processing and TLT-19 *de novo* assembly. Most files are in SAM or BAM format, with generated files via DeDup nested in an additional folder. Initial results from PyDamage calculations are also stored in an additional folder within this section.  
 
 This repository is divided into 4 folders sorted according to the 4 stages of data processing and analysis conducted by this project:
 - **DATASET CREATION:** contains relevant script for dataset assembly.

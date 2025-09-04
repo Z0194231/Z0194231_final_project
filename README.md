@@ -12,7 +12,7 @@ Files too big for GitHub storage were instead stored in the student's Durham Uni
 This repository is divided into 4 folders sorted according to the 4 stages of data processing and analysis conducted by this project:
 - **DATASET CREATION:** contains relevant script for dataset assembly.
 - **TLT19 PREPROCESSING:** contains relevant script output for FASTQ and SAM/BAM files *de novo* assembly and cleaning, including generated PyDamage files and MEGAHIT files. Most methods were performed using Bash. The nested PyDamage folder also contains Python scripts for result analysis generation.
-- **TESTING FILES:** contains relevant script for all 4 prediction runs conducted for 2 model fits, 2 predictions each. It also contains the generated results of model fit during model training. 
+- **TESTING FILES:** contains relevant script for all 4 prediction runs conducted for 2 model fits, 2 predictions each. A Jupyter notebook is also attached for graph plotting. It also contains the generated results of model fit during model training. 
 - **TRAINING FILES:** contains relevant script for the 2 model fits, as well as the saved tokenizers, label encoders, and models for further prediction testing.
 
 All written code presented in this GitHub repository has been developed using Python for model development and analysis, or Shell for script submission to HPC. Only 1 fail containing Bash commands for SAM generation during the pre-processing state has been saved, as most work was conducted live on the HPC remote server. 
